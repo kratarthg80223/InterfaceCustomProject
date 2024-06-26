@@ -69,7 +69,7 @@ function customValidation(type) {
 }
 
 function formLoad(){
-    //console.log("formLoad hook..");
+    console.log("iformclient.js formLoad triggered..");
 }
 
 function handleCustomKeyEvent(ev){

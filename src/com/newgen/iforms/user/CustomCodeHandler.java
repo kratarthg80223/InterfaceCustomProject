@@ -1,5 +1,6 @@
 package com.newgen.iforms.user;
 
+import com.newgen.commonlogger.NGUtil;
 import java.util.Locale;
 import java.io.File;
 import javax.servlet.http.HttpServletResponse;
@@ -98,7 +99,7 @@ public class CustomCodeHandler extends IFormCustomHooks implements IFormServerEv
     
     @Override
     public String executeServerEvent(IFormReference ifr, String eventOriginator, String eventType, String eventData) {
-        
+        NGUtil.writeConsoleLog("", "InterfaceViewer", "executeServerEvent triggered..");
         return "";
     }
     
